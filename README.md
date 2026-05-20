@@ -1,5 +1,5 @@
 <p style="text-align:center;">
-  <img src="59d10a25522fb850f938aa8ea894a49f.jpg" height="500" width="800">
+  <img src="59d10a25522fb850f938aa8ea894a49f.jpg" height="500" width="600">
 </p>
 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
