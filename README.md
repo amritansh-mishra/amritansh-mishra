@@ -1,3 +1,3 @@
 
 
- ![Dashboard](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/output/profile-dashboard.svg)
+ ![Dashboard](https://raw.githubusercontent.com/amritansh-mishra/amritansh-mishra/output/profile-dashboard.svg)
