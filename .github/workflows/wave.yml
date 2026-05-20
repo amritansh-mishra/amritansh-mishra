@@ -5,17 +5,21 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
       - name: Generate SVG
         run: |
           mkdir -p dist
+
           cat << 'EOF' > dist/wave.svg
           <svg width="900" height="200" xmlns="http://www.w3.org/2000/svg">
             <rect width="100%" height="100%" fill="#0d1117"/>
@@ -71,7 +75,7 @@ jobs:
           </svg>
           EOF
 
-      - name: Deploy to output branch
+      - name: Deploy SVG
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
