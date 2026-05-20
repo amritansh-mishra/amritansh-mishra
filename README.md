@@ -1,3 +1,3 @@
 
 
- ![Dashboard](https://raw.githubusercontent.com/amritansh-mishra/amritansh-mishra/output/profile-dashboard.svg)
+ ![Dashboard](https://raw.githubusercontent.com/amritansh-mishra/amritansh-mishra/output/pacman-contribution-graph-dark.svg)
